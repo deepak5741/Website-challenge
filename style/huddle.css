@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(202, 201, 201); 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(238, 140, 156); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: pink; 
+  }
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans KR';
+
+}
+
+
+
+.whole-bg-img{
+overflow: hidden;
+width: 100%;
+height: 100vh;
+}
+
+
+.whole-body{
+height: 100vh;
+
+}
+nav{
+position: absolute;
+top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+width: 100%;
+height: 10vh;
+}
+
+
+.logoLiink{
+margin-left: 50px;
+margin-top: 10px;
+
+}
+
+.Logocls{
+    width: 120px;
+    height: 30px;
+}
+
+.f-txt{
+margin-right: 90px;
+background-color: #fff ;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+padding:  3px 25px 3px 25px;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bolder;
+}
+
+.f-txt:hover{
+color: rgb(122, 121, 121);
+}
+
+.ld-pg{
+width: 100%;
+height: 60vh;
+
+position: absolute;
+top: 20%;
+
+}
+
+.com-txt{
+width: 30%;
+height: 70%;
+margin-top: 50px;
+
+}
+
+.img-mockup{
+    width: 60%;
+    height: 100%;
+right: 0;
+position: absolute;
+top: 0px;
+
+}
+
+.txt-head{
+margin-left: 50px;
+font-weight: bolder;
+font-size: 24px;
+}
+
+
+.txt-para{
+    margin-left: 50px;
+margin-top: 40px;
+font-size: 14px;
+}
+
+.mockups{
+width: 80%;
+margin-left: 10%;
+height: 100%;
+}
+
+.start{
+padding: 10px 25px 10px 25px;
+background-color: rgb(240, 137, 154);
+margin-left: 50px;
+margin-top: 20px;
+border-radius: 20px;
+border:0;
+word-spacing: 2px;
+}
+
+.start:hover{
+    background-color: rgb(235, 154, 167);
+    color: rgb(228, 224, 224);
+}
+
+/* 
+Second Part */
+
+.all-service{
+width: 100%;
+height: 150vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.service-one{
+width: 70%;
+height: 33vh;
+background-color: #fff;
+display: flex;
+align-items: center;
+border-radius: 15px;
+
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+ 
+.one-one{
+    width: 60%;
+    height: 100%;
+}
+
+.gt-h1{
+    margin: 30px 0 20px 30px ;
+}
+
+.gt-para{
+margin-left: 30px;
+font-size: 13px;
+color: rgb(163, 162, 162);
+
+}
+.gt{
+width: 40%;
+height: 100%;
+}
+
+
+.service-two{
+    width: 70%;
+    height: 33vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.one-two{
+    width: 60%;
+    height: 100%;
+    margin: 30px 0 20px 30px ;
+}
+
+.conversation{
+width: 40%;
+height: 100%;
+}
+
+
+
+
+
+.fc-h3{
+    margin: 30px 0 20px 30px ;
+}
+
+.pc-para{
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(163, 162, 162);
+}
+
+
+.service{
+    width: 70%;
+    height: 33vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Yu-h3{
+    margin: 30px 0 20px 30px ;
+}
+
+.Yu-para{
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(163, 162, 162);
+}
+
+.one-three{
+width: 40%;
+height: 100%;
+}
+
+
+.Y-User{
+    width:40%;
+    height: 100%;
+}
+
+footer{
+width: 100%;
+height: 50vh;
+background-color: teal;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.Footer-logo{
+margin-left: 50px;
+}
+
+.links{
+margin-left: 50px;
+display: flex;
+justify-content: space-between;
+width: 90%;
+height: 40%;
+
+}
+
+ul{
+list-style-type: none;
+
+
+}
+
+
+.fc-two{
+position: relative;
+left: -35px;
+margin: 10px 0 10px 0;
+}
+.fc-three{
+position: relative;
+left: -10px;
+}
+
+
+.ff-ul{
+width: 150px;
+display: flex;
+justify-content: space-between;
+}
+
+ul{
+    font-size: 13px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.fa-map-marker-alt{
+color: #fff;
+}
+
+
+.f-logo{
+width: 80px;
+height: 30px;
+}
+.fa-phone-alt{
+color: #fff;
+}
+
+.fa-envelope{
+color: #fff;
+}
